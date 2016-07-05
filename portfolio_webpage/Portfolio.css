@@ -5,11 +5,15 @@ body
 h1
 {
     font-size: 40px;
-    color: gray;
     text-align: center;
 }
 ul[id="hobbies"] li
 {
     font-size: 18px;
-    color: #d3d3d3;
+    color: #a3a3a3;
+    text-decoration: none;
+}
+h3
+{
+    color: gray;
 }
