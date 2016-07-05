@@ -1,8 +1,17 @@
-h1
+body
 {
     font-family: Arial;
+}
+h1
+{
     font-size: 40px;
     color: gray;
     text-align: center;
     position: absolute;
+}
+ul[id="hobbies"] li
+{
+    font-size: 18px;
+    color: #d3d3d3;
+    position: relative; 
 }
