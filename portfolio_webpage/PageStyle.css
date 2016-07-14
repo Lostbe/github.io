@@ -1,0 +1,63 @@
+h1
+{
+    font-size: 76px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+    color: coral;
+}
+input[type="text"]
+{
+    box-shadow: 3px 3px 2px #808080;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 300px;
+    height: 23px;
+    border: 1px solid black;
+    margin-top: -30px;
+}
+input[type="button"]
+{
+    display: block;
+    width: 80px;
+    position: absolute;
+}
+input[id="listClear"]
+{
+    top: 14.7em;
+    left: 37em;
+}
+p[id="textBarLabel"]
+{
+    margin-left: 100px;
+}
+ul li
+{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    top: 0em;
+    left: 15.7em;
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    width: 250px;
+    color:grey;
+}
+ul li:last-child
+{
+    border-bottom: 1px solid;
+}
+ul li:hover
+{
+    color: lightgray;
+    cursor: pointer;
+}
+li[id="selected"]
+{
+    color: gray;
+    text-decoration: line-through;
+}
