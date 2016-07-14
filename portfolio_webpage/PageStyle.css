@@ -23,12 +23,13 @@ input[type="button"]
     width: 80px;
     position: absolute;
 }
-input[id="listClear"]
+#listClear
 {
-    top: 14.7em;
+    top: 15.7em;
     left: 37em;
+
 }
-p[id="textBarLabel"]
+#textBarLabel
 {
     margin-left: 100px;
 }
@@ -56,7 +57,7 @@ ul li:hover
     color: lightgray;
     cursor: pointer;
 }
-li[id="selected"]
+#selected
 {
     color: gray;
     text-decoration: line-through;
