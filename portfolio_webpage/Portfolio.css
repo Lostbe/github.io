@@ -43,5 +43,20 @@ body
 div[id="content"]
 {
     text-align: center;
-    margin: 0, auto;
+    margin: 0 auto;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    margin: 10px;
+    color:#dddddd;
+    border: solid 2px;
+    padding: 0px 2px 0px 2px;
+
+}
+a:hover
+{
+    color: black;;
 }
